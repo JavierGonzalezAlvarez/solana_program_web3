@@ -1,0 +1,21 @@
+[package]
+name = "test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+solana-program = "=1.18.8"
+borsh = "1.4.0"
+borsh-derive = "1.4.0"
+
+[dev-dependencies]
+solana-program-test = "1.18.8"
+solana-sdk = "1.18.8"
+
+[lib]
+name = "test"
+crate-type = ["cdylib", "lib"]
+
+
+
+

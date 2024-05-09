@@ -1,0 +1,5 @@
+/test/target
+/seed_phrase
+/node_modules
+/test-ledger
+/dist/program/*
